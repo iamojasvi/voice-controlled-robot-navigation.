@@ -1,0 +1,5 @@
+cd ~/ros2_ws/src
+ros2 pkg create voice_control_nav --build-type ament_python --dependencies rclpy std_msgs geometry_msgs nav2_msgs
+cd ~/ros2_ws
+colcon build
+source install/setup.bash
